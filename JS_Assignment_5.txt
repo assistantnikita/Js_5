@@ -1,0 +1,70 @@
+js day_5
+
+
+ques 1)
+let a=2;
+let b=5;
+let c=a+b;
+console.log(c);//7
+
+ques 2)
+let a=5;
+let b=3;
+if(a<10 && a>b)
+{
+console.log("true");
+}
+else{
+console.log("false");
+}
+
+
+ques 3) 
+let a=12;
+let b=20;
+if(a%10==0 && b%10==0){
+    console.log("true, divisible by 10");
+}else if(a%10==0 || b%10==0)
+{
+    console.log("true, One of them is not divisible by 10")
+}else
+{
+    console.log("False, Not divisible by 10")
+}
+
+
+ques 4)
+let a=4567;
+let b=a.toString().charAt(0);
+console.log(b);
+
+
+ques 5) 
+let a = 4567;
+let lastDigit = a % 10;
+console.log(lastDigit);
+
+
+ques 6)
+let a=2;
+let b=9;
+let c=a/b;
+console.log(c);
+
+ques 7)
+let a=2;
+let b=5;
+let mul=a*b;
+console.log(mul);
+
+
+ques 8)
+let a=50;
+let b=20;
+let c=100;
+let total=a+b+c;
+let average=total/3;
+console.log(total + " "+ average);
+
+
+
